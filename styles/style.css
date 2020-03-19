@@ -1,15 +1,323 @@
-header{
-    background-image: url('../images/inicial.png');
-    background-repeat : no-repeat;
-    height: 100vh;
+/* DEFINIÇÃO DA COR DA WEB PAGE E DO TIPO DE LETRA */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#e0d3de;
+    color:#454851;
+    height: 7000px;  
+}
+
+/* IMAGEM DA PÁGINA INICIAL */
+.initialpage {
+    background-image: url("../images/inicial.png");
+    max-height: 300px;
+    
+    background-position: top;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    margin-top: 2.70cm; 
 }
 
-ul{
-    list-style-type: circle;
+/* PARA ADICIONAR O FUNDO ESCURO AO TOPO DA BARRA DE NAVEGAÇÃO */
+.topnav {
+    background-color: #454851;
+    overflow: hidden;
+    height: 2.5cm;
+    position: absolute; /* fixed - FAZ COM QUE O MENU SEJA FIXO */
+    top: 0; /* POSICIONA O MENU NO TOPO DA PÁGINA */
+    left: 0;
+    width: 100%;
+}
+  
+/* PARA ESTILIZAR OS LINKS DA BARRA DE NAVEGAÇÃO */
+.topnav a {
+    float: left;
+    transform: translate(0%, +50%);
+    color: #e0d3de;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
-ul li a{
-    color: white;
+/* NOME DO WEB SITE - CENTRADO */
+.topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #b3b492;
+    font-size: 60px;
+    font-weight: bold;
+  }
+  
+/* LADO DIREITO DA BARRA DE NAVEGAÇÃO */
+.topnav-right {
+    float: right;
 }
+
+/* TÍTULO PRINCIPAL */
+.sustentabilidade {
+    font-size: 30px; 
+    font-weight: bold; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: #83836b;
+    
+    float: none;
+    position: absolute;
+    margin-top: 15cm;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    text-align: center;
+}
+
+/* PRIMEIRO SUBTÍTULO - O que é a Sustentabilidade? */
+.sub1 {
+    font-size: 18px; 
+    font-weight: 100; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: #6F686D;
+    
+    float: none;
+    position: absolute;
+    margin-top: 25cm;
+    left: 5cm;
+    text-align: center;
+}
+
+/* ORIGEM DA PALAVRA DO PRIMEIRO SUBTÍTULO */
+.orig1 {
+    font-size: 14px; 
+    font-weight: 100; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: #969194;
+    font-style: italic;
+    
+    float: none;
+    position: absolute;
+    margin-top: 26.5cm;
+    left: 5.5cm;
+    text-align: center;
+}
+
+/* TEXTO EXPLICATIVO DO PRIMEIRO SUBTÍTULO */
+.text1 {
+    font-size: 15px; 
+    font-weight: 100; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: #6f686d;
+    
+    float: none;
+    position: absolute;
+    text-align: justify;
+    
+    padding-left: 5.5cm;
+    padding-right: 5.5cm;
+    padding-top: 28cm;
+
+    line-height: 1.6;
+}
+
+/* SEGUNDO SUBTÍTULO - O que significa ter uma vida sustentável? */
+.sub2 {
+    font-size: 18px; 
+    font-weight: 100; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: #6F686D;
+    
+    float: none;
+    position: absolute;
+    margin-top: 40cm;
+    left: 5cm;
+    text-align: center;
+}
+
+/* TEXTO EXPLICATIVO DO SEGUNDO SUBTÍTULO */
+.text2 {
+    font-size: 15px; 
+    font-weight: 100; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: #6f686d;
+    
+    float: none;
+    position: absolute;
+    text-align: justify;
+    
+    padding-left: 5.5cm;
+    padding-right: 5.5cm;
+    padding-top: 42cm;
+
+    line-height: 1.6;
+}
+
+/* PRIMEIRA DICA RELACIONADA COM O SUBTÍTULO 2 */
+.text2_tip1 {
+    font-size: 15px; 
+    font-weight: bold; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: #6f686d;
+    
+    float: none;
+    position: absolute;
+    text-align: justify;
+    
+    padding-top: 5mm;
+}
+
+/* EXPLICAÇÃO DA PRIMEIRA DICA */
+.tip1 {
+    font-size: 15px; 
+    font-weight: 100; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: #6f686d;
+    
+    float: none;
+    position: absolute;
+    text-align: justify;
+    
+    padding-top: 1.5cm;
+    padding-right: 5.5cm;
+    padding-left: 5mm;
+    
+    line-height: 1.6;
+}
+
+/* IMAGEM RELACIONADA COM A PRIMEIRA DICA */
+.food {
+    padding-top: 6.5cm;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: auto;
+    position: absolute;
+    border-color: #b3b492;
+    border-width: 5mm;
+}
+
+/* LEGENDA DA IMAGEM RELATIVA À PRIMEIRA DICA */
+.legenda_food {
+    font-size: 14px; 
+    font-weight: 100; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-style: italic;
+    color: #969194;
+    
+    float: none;
+    position: absolute;
+    text-align: justify;
+    padding-top: 26cm;
+}
+
+/* PRIMEIRA DICA RELACIONADA COM O SUBTÍTULO 2 */
+.text2_tip2 {
+    font-size: 15px; 
+    font-weight: bold; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: #6f686d;
+    
+    float: none;
+    position: absolute;
+    text-align: justify;
+    
+    padding-top: 28cm;
+}
+
+/* EXPLICAÇÃO DA SEGUNDA DICA */
+.tip2 {
+    font-size: 15px; 
+    font-weight: 100; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: #6f686d;
+    
+    float: none;
+    position: absolute;
+    text-align: justify;
+    
+    padding-top: 29cm;
+    padding-right: 5.5cm;
+    padding-left: 5mm;
+    
+    line-height: 1.6;
+
+    background: -webkit-linear-gradient(#6f686d, #e0d3de);
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tip2_readmore {
+    font-size: 14px; 
+    color: #83836b;
+    font-weight: 100; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;     
+    padding-top: 32cm;
+    padding-right: 5.5cm;
+    padding-left: 5mm;
+    text-decoration: none;
+}
+
+.tip2_readmore:hover {
+    color: #83836b;
+}
+
+.tip2_readmore:link {
+    color: #83836b;
+}
+
+.tip2_readmore:visited {
+    color: #83836b;    
+}
+
+.tip2_readmore:active {
+    color: #83836b;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+/*@media screen and (max-width: 600px) {
+    .topnav a, .topnav-right {
+        float: none;
+        display: block;
+    }
+  
+    .topnav-centered a {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        color: #cddbd6;
+    }
+  }*/
+
+
