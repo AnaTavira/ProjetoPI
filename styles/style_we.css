@@ -1,25 +1,23 @@
 /* DEFINIÇÃO DA COR DA WEB PAGE E DO TIPO DE LETRA */
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color:#e0d3de;
+    background-color: black;
     color:#454851;
     height: 7000px;  
 }
 
 /* IMAGEM DA PÁGINA INICIAL */
 .initialpage {
-    background-image: url("../images/inicial.png");
-    max-height: 300px;
-    
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 2.70cm; 
+    margin-top: 2.70cm;
 }
 
 /* PARA ADICIONAR O FUNDO ESCURO AO TOPO DA BARRA DE NAVEGAÇÃO */
 .topnav {
-    background-color: #454851;
+    background-color: #121212;
+    box-shadow: white;
     overflow: hidden;
     height: 2.5cm;
     position: absolute; /* fixed - FAZ COM QUE O MENU SEJA FIXO */
@@ -57,16 +55,32 @@ body {
 }
 
 /* TÍTULO PRINCIPAL */
-.sustentabilidade {
-    font-size: 30px; 
-    font-weight: bold; 
+.who {
+    font-size: 23px; 
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    color: #83836b;
+    color: whitesmoke;
     
     float: none;
     position: absolute;
-    margin-top: 15cm;
     left: 50%;
     transform: translate(-50%, 0%);
     text-align: center;
+}
+
+.text {
+    font-size: 17px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: white;
+    
+    float: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    text-align: center;
+}
+
+.earth{
+    width: 250px;
+    margin-left: 39%;
+    align-content: center;
 }
