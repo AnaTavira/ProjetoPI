@@ -76,11 +76,8 @@ body {
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0%);
-    text-align: center;
 }
 
 .earth{
-    width: 250px;
-    margin-left: 39%;
     align-content: center;
 }
