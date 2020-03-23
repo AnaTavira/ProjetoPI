@@ -87,9 +87,9 @@ body {
 
 /* DEFINIÇÃO DE ALGUMAS PROPRIEDADES IMPORTANTES DA TABELA*/
 table{
-    padding-top: 150px;
+    padding-top: 70px;
     box-align: center;
-    border-spacing: 270px 20px;
+    border-spacing: 280px 20px;
 }
 
 th, td{
