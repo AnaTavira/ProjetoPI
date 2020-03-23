@@ -78,6 +78,21 @@ body {
     transform: translate(-50%, 0%);
 }
 
-.earth{
+.we{
     align-content: center;
+    width:350px;
+}
+
+table{
+    padding-top: 120px;
+    padding-left: 280px;
+    box-align: center;
+}
+
+th, td{
+    width: 150px;
+    border: 1px solid white;
+    
+    text-align: center;
+    color: white;;
 }
