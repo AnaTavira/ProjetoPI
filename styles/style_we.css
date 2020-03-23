@@ -1,7 +1,7 @@
 /* DEFINIÇÃO DA COR DA WEB PAGE E DO TIPO DE LETRA */
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: black;
+    background-color:#e0d3de;
     color:#454851;
     height: 7000px;  
 }
@@ -16,7 +16,7 @@ body {
 
 /* PARA ADICIONAR O FUNDO ESCURO AO TOPO DA BARRA DE NAVEGAÇÃO */
 .topnav {
-    background-color: #121212;
+    background-color: #454851;
     box-shadow: white;
     overflow: hidden;
     height: 2.5cm;
@@ -58,7 +58,7 @@ body {
 .who {
     font-size: 23px; 
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    color: whitesmoke;
+    color: #3c3e44;
     
     float: none;
     position: absolute;
@@ -67,10 +67,11 @@ body {
     text-align: center;
 }
 
+/* DEFINIR ALGUMAS PROPRIEDADES DO TEXTO */
 .text {
-    font-size: 17px; 
+    font-size: 17px;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    color: white;
+    color: black;
     
     float: none;
     position: absolute;
@@ -78,21 +79,23 @@ body {
     transform: translate(-50%, 0%);
 }
 
+/* FORMATAÇÃO DAS IMAGENS */
 .we{
     align-content: center;
     width:350px;
 }
 
+/* DEFINIÇÃO DE ALGUMAS PROPRIEDADES IMPORTANTES DA TABELA*/
 table{
-    padding-top: 120px;
-    padding-left: 280px;
+    padding-top: 150px;
+    padding-left: 330px;
     box-align: center;
 }
 
 th, td{
     width: 150px;
-    border: 1px solid white;
+    border: 0px;
     
     text-align: center;
-    color: white;;
+    color: black;
 }
