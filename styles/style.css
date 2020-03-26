@@ -246,31 +246,15 @@ body {
 
 .tip2_readmore {
     font-size: 14px; 
-    
     color: #83836b;
     font-weight: 100; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;     
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    float: right;  
     padding-top: 32cm;
-    padding-right: 5.5cm;
-    padding-left: 5mm;
     text-decoration: none;
 }
 
-.tip2_readmore:hover {
-    color: #83836b;
-}
 
-.tip2_readmore:link {
-    color: #83836b;
-}
-
-.tip2_readmore:visited {
-    color: #83836b;    
-}
-
-.tip2_readmore:active {
-    color: #83836b;    
-}
 
 
 
